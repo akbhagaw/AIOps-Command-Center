@@ -1,14 +1,18 @@
-# Python environment
+# --- Python & Environment ---
 logenv/
 __pycache__/
+*.pyc
+*.pyo
 
-# Local log data (Security & Privacy)
+# --- Forensic Data (Security) ---
+# This catches the raw logs and the processed CSVs
 *.evtx
 *.csv
-# This ignores the folder where the engine saves logs
 logs_collection/
 triage_rules.json
 
-# IDE settings
+# --- OS & Editor ---
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
