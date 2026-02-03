@@ -1,0 +1,14 @@
+# Python environment
+logenv/
+__pycache__/
+
+# Local log data (Security & Privacy)
+*.evtx
+*.csv
+# This ignores the folder where the engine saves logs
+logs_collection/
+triage_rules.json
+
+# IDE settings
+.vscode/
+.idea/
