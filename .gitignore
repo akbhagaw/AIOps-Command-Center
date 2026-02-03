@@ -1,0 +1,13 @@
+# Python environment
+logenv/
+__pycache__/
+
+# Local log data (Security & Privacy)
+*.evtx
+*.csv
+C:/logs_collection/
+triage_rules.json
+
+# IDE settings
+.vscode/
+.idea/
