@@ -7,7 +7,7 @@ import seaborn as sns
 from datetime import datetime
 
 # --- CONFIGURATION ---
-TARGET_HOST = "DESKTOP-E50N2KH" 
+TARGET_HOST = "DESKTOP_Name or IP here" 
 BASE_STAGING = r"C:\logs_collection"
 # Analysis Window
 START_DATE = "2026-02-01"
